@@ -5,7 +5,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
-
         DbHelper dbHelper=new DbHelper();
         Connection connection=null;
         Statement statement=null;
@@ -35,7 +34,6 @@ public class Main {
                 System.out.println("Error shutting down: "+e);
             }
         }
-
 
     }
 }
